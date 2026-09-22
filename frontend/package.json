@@ -40,22 +40,22 @@
     "@tiptap/starter-kit": "^3.31.3",
     "@tiptap/suggestion": "^3.31.3",
     "@tiptap/vue-3": "^3.31.3",
-    "eslint": "^10.10.0",
+    "eslint": "^10.11.0",
     "nuxt": "^4.5.2",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
-    "vue": "^3.5.42",
+    "vue": "^3.5.43",
     "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@iconify-json/lucide": "^1.2.130",
+    "@iconify-json/lucide": "^1.2.135",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@playwright/test": "^1.63.0",
-    "@vitest/coverage-v8": "^5.0.0",
-    "@vue/test-utils": "^2.5.0",
-    "daisyui": "^5.7.32",
-    "happy-dom": "^20.14.3",
+    "@vitest/coverage-v8": "^5.0.1",
+    "@vue/test-utils": "^2.5.1",
+    "daisyui": "^5.7.42",
+    "happy-dom": "^20.14.5",
     "playwright-core": "^1.63.0",
-    "vitest": "^5.0.0"
+    "vitest": "^5.0.1"
   }
 }
