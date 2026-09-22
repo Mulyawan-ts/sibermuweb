@@ -10,7 +10,7 @@
       // Ukuran opsional: 'xs', 'sm', 'lg'
       size ? `btn-${size}` : '',
       // Status disabled
-      { 'btn-disabled': disabled || loading },
+      { 'btn-disabled': disabled || loading }
     ]"
   >
     <!-- Spinner bawaan DaisyUI saat loading -->
@@ -29,30 +29,30 @@ defineProps({
   // Terkunci hanya untuk 'primary' atau 'secondary'
   variant: {
     type: String,
-    default: "primary",
-    validator: (val) => ["primary", "secondary"].includes(val),
+    default: 'primary',
+    validator: (val) => ['primary', 'secondary'].includes(val)
   },
   // Ukuran opsional: 'xs', 'sm', 'md', 'lg'
   size: {
     type: String,
-    default: "",
+    default: ''
   },
   // Nama ikon dari @nuxt/icon (misal: 'lucide:send' atau 'lucide:arrow-left')
   icon: {
     type: String,
-    default: "",
+    default: ''
   },
   type: {
     type: String,
-    default: "button",
+    default: 'button'
   },
   loading: {
     type: Boolean,
-    default: false,
+    default: false
   },
   disabled: {
     type: Boolean,
-    default: false,
-  },
-});
+    default: false
+  }
+})
 </script>
