@@ -1,4 +1,6 @@
-@import "tailwindcss";
-@plugin "daisyui"{
-  theme: corporate --default, business --preferdark;
+@import 'tailwindcss';
+@plugin "daisyui" {
+  theme:
+    corporate --default,
+    business --preferdark;
 }
